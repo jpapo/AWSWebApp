@@ -38,10 +38,9 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AWSSDK, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="AWSSDK, Version=1.4.2.0, Culture=neutral, PublicKeyToken=cd2d24cd2bace800, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\AWS SDK for .NET\bin\AWSSDK.dll</HintPath>
-      <Private>True</Private>
+      <HintPath>lib\AWSSDK.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -63,8 +62,11 @@
     <Content Include="images\database.png" />
     <Content Include="images\drive.png" />
     <Content Include="images\server.png" />
+    <Content Include="lib\AWSSDK.dll" />
     <Content Include="styles\styles.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">
