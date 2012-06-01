@@ -25,7 +25,7 @@
     </div>
 
     <div class="section grid grid5 gridlast ec2">
-        <h2>Amazon EC2 Instances:</h2>
+        <h2>Amazon EC2 Instances - exemplo:</h2>
         <ul>
             <asp:Label ID="ec2Placeholder" runat="server"></asp:Label>
 
