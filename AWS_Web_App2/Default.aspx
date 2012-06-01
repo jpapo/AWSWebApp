@@ -11,7 +11,7 @@
 <body>
 <div id="content" class="container">
     <div class="section grid grid5 s3">
-        <h2>Amazon S3 Buckets - Teste:</h2>
+        <h2>Amazon S3 Buckets  :</h2>
         <ul>
             <asp:Label ID="s3Placeholder" runat="server"></asp:Label>
         </ul>
